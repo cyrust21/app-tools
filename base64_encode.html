@@ -49,7 +49,21 @@
           <textarea id="output" placeholder="Output"></textarea>
         </div>
       </div>
-      
+      <p id="demo"></p>
+<span id="datetime"></span>
+
+
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+</script>
+
+<script>
+let text = "FFTOOLSPRO";
+let encoded = window.btoa(dt);
+
+document.getElementById("datetime").innerHTML = "" + text + "" demo;
+</script>
       <script src="https://cdn.jsdelivr.net/gh/emn178/hi-base64/build/base64.min.js"></script>
       <script>method = base64.encode;</script>
     </div>
