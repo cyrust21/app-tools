@@ -26,7 +26,7 @@
 
     var execute = function() {
       try {
-        var type = 'text';
+        var type = 'FFTOOLSPRO';
         var val = input.val();
         if (inputType.length) {
           type = inputType.val();
