@@ -18,6 +18,21 @@
     <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script> 
   </head>
   <body>
+      <p id="demo"></p>
+<span id="datetime"></span>
+
+
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+</script>
+
+<script>
+let text = "FFTOOLSPRO";
+let encoded = window.btoa(dt);
+
+document.getElementById("datetime").innerHTML = "" + text + "" encode;
+    
       <body class="centered-wrapper">
     <div id="header">
       <h1><a href="index.html">Online Tools</a></h1>
@@ -49,20 +64,7 @@
           <textarea id="output" placeholder="Output"></textarea>
         </div>
       </div>
-      <p id="demo"></p>
-<span id="datetime"></span>
 
-
-<script>
-var dt = new Date();
-document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
-</script>
-
-<script>
-let text = "FFTOOLSPRO";
-let encoded = window.btoa(dt);
-
-document.getElementById("datetime").innerHTML = "" + text + "" encode;
 </script>
       <script src="https://cdn.jsdelivr.net/gh/emn178/hi-base64/build/base64.min.js"></script>
       <script>method = base64.encode;</script>
