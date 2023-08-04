@@ -28,6 +28,7 @@ a:hover, a.active {
   width: 1024px;
   margin: 0 auto;
   margin-top: 20px;
+  gravity: center-auto;
 }
 
 #body:after {
